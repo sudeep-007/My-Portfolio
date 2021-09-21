@@ -1,0 +1,341 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+div {
+  padding-top: 30px;
+}
+
+.bg-img {
+  position: absolute;
+  width: 100%;
+  height: 1120px;
+  opacity: 0.2;
+}
+
+.welcome {
+  font-style: italic;
+  font-family: 'Sacramento', cursive, sans-serif;
+  color: white;
+  display: inline;
+  margin-left: 50px;
+}
+
+.top-container {
+  margin: 0;
+  font-size: 20px;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  font-family: 'Work Sans', sans-serif, serif;
+}
+
+a:hover {
+  color: orange;
+}
+
+.tab1 {
+  margin: 0;
+  color: grey;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+  position: absolute;
+  right: 457px;
+}
+
+.tab2 {
+  margin: 0;
+  color: grey;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+  position: absolute;
+  right: 343px;
+}
+
+.tab3 {
+  margin: 0;
+  color: grey;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+  position: absolute;
+  right: 213px;
+}
+
+.tab4 {
+  margin: 0;
+  color: grey;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+  position: absolute;
+  right: 72px;
+}
+
+.middle-container {
+  height: 100%;
+  width: 100%;
+}
+
+.hey {
+  color: white;
+  font-size: 25px;
+  font-family: 'Work Sans', sans-serif, serif;
+  position: absolute;
+  left: 10%;
+}
+
+.sudeep {
+  color: white;
+  font-size: 45px;
+  font-family: 'Work Sans', sans-serif, serif;
+  margin-top: 70px;
+  position: absolute;
+  left: 18%;
+}
+
+.photo {
+  width: 300px;
+  height: 300px;
+  margin: 80px;
+  position: absolute;
+  top: 45%;
+  left: 30%;
+}
+
+.about {
+  color: white;
+  font-weight: bolder;
+  font-family: sans-serif;
+  position: absolute;
+  top: 115%;
+  left: 41%;
+}
+
+.para {
+  color: white;
+  font-family: 'Work Sans', sans-serif, serif;
+  font-size: 20px;
+  width: 500px;
+  text-align: center;
+  position: absolute;
+  top: 125%;
+  left: 28%;
+}
+
+.btn {
+  position: absolute;
+  top: 155%;
+  left: 42%;
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 19px;
+  background: #787878;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #000000;
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: darkgrey;
+  opacity: 0.25;
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  top: 200%;
+  bottom: 0;
+}
+
+.end {
+  color: black;
+  font-weight: bold;
+  font-family: 'Work Sans', sans-serif, serif;
+  position: absolute;
+  bottom: -10px;
+  left: 500px
+}
+
+.hobby {
+  color: white;
+  font-weight: bolder;
+  font-family: 'Work Sans', sans-serif, serif;
+  position: absolute;
+  left: 10%;
+}
+
+.habits {
+  color: white;
+  font-size: 20px;
+  font-family: 'Work Sans', sans-serif, serif;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+.reading {
+  opacity: 0.5;
+  height: 300px;
+  width: 200px;
+  position: absolute;
+  right: 10%;
+  top: 30%;
+}
+
+.coding {
+  opacity: 0.5;
+  height: 300px;
+  width: 250px;
+  position: absolute;
+  right: 10%;
+  top: 150%;
+}
+
+.games {
+  opacity: 0.5;
+  height: 300px;
+  width: 250px;
+  position: absolute;
+  left: 45%;
+  top: 150%;
+}
+
+.tv {
+  opacity: 0.5;
+  height: 300px;
+  width: 400px;
+  position: absolute;
+  left: 5%;
+  top: 150%;
+}
+
+.edu {
+  color: white;
+  font-weight: bolder;
+  font-family: 'Work Sans', sans-serif, serif;
+  position: absolute;
+  left: 10%;
+}
+
+table {
+  border: 10px dotted white;
+  border-style: dotted none dotted none;
+  font-size: 20px;
+  border-collapse: separate;
+  border-spacing: 20px;
+  font-family: 'Work Sans', sans-serif, serif;
+  text-align: left;
+  color: white;
+  position: absolute;
+  top: 60%;
+}
+
+th {
+  padding: 50px;
+  border: 5px groove white;
+  text-align: center;
+}
+
+.contact {
+  color: white;
+  font-weight: bolder;
+  font-family: 'Work Sans', sans-serif, serif;
+  position: absolute;
+  left: 10%;
+}
+
+form {
+  text-align: left;
+  font-weight: bolder;
+  position: absolute;
+  height: 900px;
+  width: 50%;
+  top: 50%;
+  left: 10%;
+}
+
+input[type=text], input[type=email], textarea {
+  font-family: 'Work Sans', sans-serif, serif;
+  font-weight: bold;
+  background-color: lightgrey;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: horizontal;
+  resize: vertical;
+}
+
+label {
+  color: white;
+  font-family: 'Work Sans', sans-serif, serif;
+}
+
+input[type=submit], input[type=reset] {
+  font-family: 'Work Sans', sans-serif, serif;
+  font-weight: bold;
+  background-color: grey;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+  color: orange;
+}
+
+input[type=reset]:hover {
+  background-color: black;
+  color: orange;
+}
+
+.conclusion {
+  color: white;
+  font-family: 'Work Sans', sans-serif, serif;
+  font-weight: bolder;
+  position: absolute;
+  top: 140%;
+  left: 10%;
+}
+
+.instagram {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 152%;
+  left: 10%;
+}
+
+.linkedin {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 152%;
+  left: 16%;
+}
+
+.github {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 152%;
+  left: 22%;
+}
